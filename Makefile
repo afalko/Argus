@@ -7,6 +7,9 @@ buildnumber=${BUILD_NUMBER}
 
 all: build-all package
 
+test-change-in-fork:
+	echo test1243
+
 webservices: build-all create-arguswebservices-rpm
 
 client: build-all create-argusclient-rpm
