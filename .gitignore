@@ -48,3 +48,5 @@ update_views.sh
 
 #webpack
 ArgusWeb/dist
+
+# test comment to 2.8.0 branch
