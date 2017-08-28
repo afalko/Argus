@@ -13,6 +13,8 @@ To find out more [see the wiki.](https://github.com/salesforce/Argus/wiki)
 
 ### Installing The Resource Filters
 
+# Public contribution here!
+
 Argus uses the `argus-build.properties` file as a resource filter for the build and all the module builds.  After you clone the project for the first time, or after you change this file, you must create and install the dependency jars which will contain these filters.  Those dependency jars are then pulled in by the modules, expanded and have their values applied to the module specific builds.  Luckily, it's a straightforward operation.  Just execute the following command from within the parent project, after you first clone the project or after you update the `argus-build.properties` file.
 
 ```
